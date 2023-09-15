@@ -1,0 +1,127 @@
+body{
+    margin:0px ;
+    /* width: 100%; */
+    /* height: 10vh; */
+    background: black;
+}
+.eq1{
+    position: absolute;
+left: 360px;
+    margin:20%; 
+    
+}
+.eq2{ position: absolute;
+    height: 10px;
+    width: 10px;
+   
+    background: blue;
+    bottom: 0px;
+    animation: eq 400ms linear  infinite alternate;
+}
+.eq3{ position: absolute;
+    height: 10px;
+    width: 10px;
+    background: blue;
+    left: 12px;
+    bottom: 0px;
+    animation: eq 200ms linear  infinite alternate;
+}
+.eq4{ position: absolute;
+    height: 10px;
+    width: 10px;
+    background: blue;
+    left: 24px;
+    bottom: 0px;
+    animation: eq 300ms linear  infinite alternate;
+}
+.eq5{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 36px;
+    bottom: 0px;
+    animation: eq 200ms linear  infinite alternate;
+}
+.eq6{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 48px;
+    bottom: 0px;
+    animation: eq 300ms linear  infinite alternate;
+}.eq7{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 60px ;
+    bottom: 0px;
+    animation: eq 350ms linear  infinite alternate;
+}.eq8{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left:72px ;
+    bottom: 0px;
+    animation: eq 400ms linear  infinite alternate;
+}.eq9{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 84px;
+    bottom: 0px;
+    animation: eq 280ms linear  infinite alternate;
+}.eq10{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 96px;
+    bottom: 0px;
+    animation: eq 80ms linear  infinite alternate;
+}.eq11{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 108px;
+    bottom: 0px;
+    animation: eq 200ms linear  infinite alternate;
+}.eq12{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 120px;
+    bottom: 0px;
+    animation: eq 280ms linear  infinite alternate;
+}.eq13{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 132px;
+    bottom: 0px;
+    animation: eq 320ms linear  infinite alternate;
+}.eq14{ position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: blue; */
+    left: 144px;bottom: 0px;
+    animation: eq 200ms linear  infinite alternate;
+}
+@keyframes eq {
+ 0%{ height: 20px;
+    opacity: ;
+    background-color: rgb(192, 20, 160);
+
+ }
+ 20%{ height: 40px; background-color: rgb(236, 36, 70);
+
+ }
+
+40%{height: 60px;
+
+}
+75%{    height: 70px;
+background-color: rgb(223, 8, 80);}
+100%{
+    height: 100px;
+    opacity: 0;
+}
+}
